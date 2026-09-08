@@ -18,6 +18,5 @@ Böngésző: http://localhost:8000
 2. nyílt napok és regisztrációk
 3. felvételi/képzési adatok
 4. Veresegyházról közlekedés
-5. kézilabda + kollégium
-6. saját súlyozás/rangsor
-7. adatfrissítés és forrásminőség
+5. saját súlyozás/rangsor
+6. adatfrissítés és forrásminőség
