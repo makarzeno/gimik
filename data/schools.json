@@ -1,126 +1,19 @@
-{
-  "name": "17 gimnázium – felvételi összehasonlító MVP",
-  "version": "0.1.0",
-  "updated": "2026-09-08",
-  "schools": [
-    {
-      "name": "Berzsenyi Dániel Gimnázium",
-      "city": "Budapest",
-      "status": "confirmed_event",
-      "event": "2026.09.23. 17:00 – beiskolázási tájékoztató",
-      "note": "Nem klasszikus nyílt nap; 8.-osoknak 2026.09.28-tól felvételi előkészítők indulnak."
-    },
-    {
-      "name": "Gödöllői Török Ignác Gimnázium",
-      "city": "Gödöllő",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es nyílt napra jelenleg nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Kossuth Lajos Gimnázium",
-      "city": "Budapest",
-      "status": "needs_check",
-      "event": "",
-      "note": "Az intézménynév/cím korábban bizonytalan volt; külön azonosítani kell az intézményt."
-    },
-    {
-      "name": "Németh László Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es nyílt napra jelenleg nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Óbudai Árpád Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "2025-ben november 14-én volt nyílt nap; 2026/27-re nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Budapest II. Kerületi II. Rákóczi Ferenc Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "A gimnázium címe: II. Keleti Károly u. 37. Nem azonos a BGSzC II. Rákóczi Ferenc Technikummal."
-    },
-    {
-      "name": "Teleki Blanka Gimnázium",
-      "city": "Budapest",
-      "status": "confirmed_dates",
-      "event": "2026.10.14., 11.10., 11.26. – nyílt nap + szülői tájékoztató",
-      "note": "A szülői tájékoztató az érintett napokon 17:00-tól van."
-    },
-    {
-      "name": "Újpesti Könyves Kálmán Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es nyílt napra jelenleg nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Újpesti Babits Mihály Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "A honlap 2026 szeptemberében aktív, de nyílt nap dátuma jelenleg nincs azonosítva."
-    },
-    {
-      "name": "Xántus János Két Tanítási Nyelvű Gimnázium",
-      "city": "Budapest",
-      "status": "full_registration",
-      "event": "Nyílt nap regisztráció: betelt (a felhasználó ellenőrzése alapján)",
-      "note": "Korábbi évben telt ház után pótidőpontot is hirdettek; 2026/27-es új időpont jelenleg nincs megerősítve."
-    },
-    {
-      "name": "Szent István Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es felvételi oldal elérhető, de aktuális nyílt nap dátuma nincs azonosítva."
-    },
-    {
-      "name": "VII. Kerületi Madách Imre Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "A 2026-os naptár aktív, de nyílt nap nincs benne."
-    },
-    {
-      "name": "Budapest V. Kerületi Eötvös József Gimnázium",
-      "city": "Budapest",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es dátum nincs azonosítva; korábbi tájékoztató szerint lemondás esetén helyek felszabadulhatnak."
-    },
-    {
-      "name": "Veres Pálné Gimnázium",
-      "city": "Budapest",
-      "status": "expected",
-      "event": "2026 novemberére várható nyílt délutánok; konkrét dátum nincs megerősítve",
-      "note": "Az őszi nyílt programok várhatók, konkrét 2026/27-es időpontot még nem találtunk."
-    },
-    {
-      "name": "Dunakeszi Radnóti Miklós Gimnázium",
-      "city": "Dunakeszi",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es nyílt napra jelenleg nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Esztergomi Dobó Katalin Gimnázium",
-      "city": "Esztergom",
-      "status": "not_found",
-      "event": "",
-      "note": "2026/27-es nyílt napra jelenleg nincs megbízhatóan azonosított időpont."
-    },
-    {
-      "name": "Tóth Árpád Gimnázium",
-      "city": "Debrecen",
-      "status": "not_found",
-      "event": "",
-      "note": "2025-ben novemberben volt 8.-osoknak nyílt nap; 2026/27-es dátum nincs azonosítva."
-    }
-  ]
-}
+{"title":"17 gimnázium – 2027-es felvételi összehasonlító","version":"1.2.0","updated":"2026-09-09","method":"A közlekedési idők tervezési becslések, kb. 8:00-as iskolakezdéssel. A Ligetek → veresegyházi állomás/buszmegálló helyi szakasza nincs beleszámítva.","schools":[
+{"name":"Berzsenyi Dániel Gimnázium","city":"Budapest","open_day":{"status":"confirmed_event","event":"2026.09.23. 17:00 – beiskolázási tájékoztató","note":"Nem klasszikus nyílt nap.","source":"https://www.berzsenyi.hu/index.php?id_a=55&id_hir=1363"},"transport":{"public_minutes":"65–70 perc","car_minutes":"40–55 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Gödöllői Török Ignác Gimnázium","city":"Gödöllő","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"Érdemes figyelni az iskola híreit.","source":""},"transport":{"public_minutes":"25–30 perc","car_minutes":"15–25 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Kossuth Lajos Gimnázium","city":"Ellenőrizendő","open_day":{"status":"check_needed","event":"Az iskolaazonosítás pontosítása szükséges","note":"Nem állítok be címet vagy útvonalat, amíg az iskolaazonosítás nincs megerősítve.","source":""},"transport":null,"boarding":false},
+{"name":"Németh László Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"Érdemes figyelni az iskola híreit.","source":""},"transport":{"public_minutes":"50–55 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Óbudai Árpád Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"2025-ben november 14-én volt nyílt nap; a 2026/27-es dátum még nincs megerősítve.","source":""},"transport":{"public_minutes":"55–60 perc","car_minutes":"35–50 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Budapest II. Kerületi II. Rákóczi Ferenc Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A II. kerületi gimnáziumról van szó, nem az azonos nevű technikumról.","source":""},"transport":{"public_minutes":"65–70 perc","car_minutes":"35–50 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Teleki Blanka Gimnázium","city":"Budapest","open_day":{"status":"confirmed_event","event":"2026.10.14., 2026.11.10., 2026.11.26. – nyílt nap + szülői tájékoztató","note":"A szülői tájékoztató 17:00-kor kezdődik.","source":"https://tbg.hu/a-tanev-rendje/"},"transport":{"public_minutes":"45–50 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Újpesti Könyves Kálmán Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"Nincs megerősített 2026/27-es dátum.","source":""},"transport":{"public_minutes":"40–45 perc","car_minutes":"25–35 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Újpesti Babits Mihály Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"Konkrét 2026/27-es nyílt napot nem találtam.","source":""},"transport":{"public_minutes":"45–50 perc","car_minutes":"25–35 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Xántus János Két Tanítási Nyelvű Gimnázium","city":"Budapest","open_day":{"status":"registration_full","event":"2026/27-es nyílt nap – a jelenlegi regisztráció betelt","note":"Korábbi évben a betelt időpontok után pótdátum is volt; 2026/27-re ilyen új dátum még nincs megerősítve.","source":"https://xantus.hu/hu/3459-nyilt-napok.html"},"transport":{"public_minutes":"55–60 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Szent István Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A felvételi tájékoztató elérhető, de nyílt napi dátumot nem találtam.","source":""},"transport":{"public_minutes":"55–60 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"VII. Kerületi Madách Imre Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A 2026-os iskolai naptár aktív, de nyílt nap nincs feltüntetve.","source":"https://mig.hu/calendar/"},"transport":{"public_minutes":"55–60 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Budapest V. Kerületi Eötvös József Gimnázium","city":"Budapest","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A honlapon még a 2025/26-os nyílt napok szerepelnek.","source":""},"transport":{"public_minutes":"60–65 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Veres Pálné Gimnázium","city":"Budapest","open_day":{"status":"expected","event":"2026 november – várható nyílt délutánok","note":"Konkrét 2026/27-es dátumot még nem találtam.","source":"https://vpg.hu/?q=content%2Fprogramok"},"transport":{"public_minutes":"60–65 perc","car_minutes":"30–45 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Dunakeszi Radnóti Miklós Gimnázium","city":"Dunakeszi","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"Érdemes figyelni az iskola híreit.","source":""},"transport":{"public_minutes":"30–35 perc","car_minutes":"20–30 perc","precision":"tervezési becslés"},"boarding":false},
+{"name":"Esztergomi Dobó Katalin Gimnázium","city":"Esztergom","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A kollégiumi szempont itt releváns.","source":""},"transport":null,"boarding":true},
+{"name":"Tóth Árpád Gimnázium","city":"Debrecen","open_day":{"status":"not_found","event":"2026/27-es dátumot még nem találtam","note":"A kollégiumi szempont itt releváns.","source":""},"transport":null,"boarding":true}
+]}
